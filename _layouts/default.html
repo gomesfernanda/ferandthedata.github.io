@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+    {% include header.html %}
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">{{ content }}
+            <div><a href="{{ site.baseurl }}/" title="link to home of {{ site.title }}" class="class2 strong">[x] Close blog</a></div>
+
+        </div>
+
+        {% include footer.html %}
+    </div>
+</body>
+
+</html>
